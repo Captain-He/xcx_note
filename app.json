@@ -1,0 +1,58 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/virtualCamera/virtualCamera",
+    "pages/picture/picture",
+    "pages/user/user",
+    "pages/chatBox/chatBox",
+    "pages/cut/cut",
+    "pages/txt/txt",
+    "pages/addtxt/addtxt"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "懒人云笔记",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#7f8389",
+    "selectedColor": "#09BB07",
+    "backgroundColor": "#F8F8FA",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "云社区",
+        "iconPath": "images/list.png",
+        "selectedIconPath": "images/list-selected.png"
+      },
+      {
+        "pagePath": "pages/addtxt/addtxt",
+        "text": "历史笔记",
+        "iconPath": "images/list.png",
+        "selectedIconPath": "images/list-selected.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "添加笔记",
+        "iconPath": "images/add.png",
+        "selectedIconPath": "images/add-selected.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人中心",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me-selected.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+
+}

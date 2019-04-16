@@ -1,0 +1,9 @@
+<!--pages/cut/cut.wxml-->
+<view class='img-box'>
+  <image
+          style="width: 90%; height: 90%; background-color: #eeeeee;"
+          mode="0.5"
+          src="{{imageSrc}}"
+        ></image>
+</view>
+<button type='defaule' bindtap="clickButton">识别</button>
