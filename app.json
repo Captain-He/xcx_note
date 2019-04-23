@@ -8,7 +8,8 @@
     "pages/chatBox/chatBox",
     "pages/cut/cut",
     "pages/txt/txt",
-    "pages/addtxt/addtxt"
+    "pages/addtxt/addtxt",
+    "pages/test/test"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -30,13 +31,13 @@
         "selectedIconPath": "images/list-selected.png"
       },
       {
-        "pagePath": "pages/addtxt/addtxt",
+        "pagePath": "pages/test/test",
         "text": "历史笔记",
         "iconPath": "images/list.png",
         "selectedIconPath": "images/list-selected.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/addtxt/addtxt",
         "text": "添加笔记",
         "iconPath": "images/add.png",
         "selectedIconPath": "images/add-selected.png"

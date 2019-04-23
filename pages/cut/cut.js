@@ -1,4 +1,5 @@
 // pages/cut/cut.js
+const app = getApp();
 Page({
 
   /**
@@ -33,18 +34,33 @@ clickButton:function(e){
         url: 'https://www.caption-he.com.cn/xcx/home/index/upload', // 仅为示例，非真实的接口地址
         filePath: res.data[0],
         name: 'file',
-        formData: {
-          
+        formData: {  
         },
         success(res) {
           const data = res.data
           // do something
           wx.hideLoading();
-          if(res.data){
+          if(data){
+            const node = {
+              name: 'p',
+              attrs: {
+                class: 'xing-p',
+              },
+              children: [{
+                type: 'text',
+                text: data
+              }]
+            }
+            const index = app.globalData.li;
+            app.globalData.text.splice(index + 1, 1);
+            app.globalData.text.splice(index + 1, 0, node);
             wx.showToast({
               title: '识别成功',
               icon: 'success',
               duration: 2000
+            })
+            wx.reLaunch({
+              url:'../addtxt/addtxt'
             })
           }
           else{

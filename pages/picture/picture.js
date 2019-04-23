@@ -252,7 +252,7 @@ Page({
               console.log('保存成功');
             }
           })
-          wx.redirectTo({
+          wx.navigateTo({
             url: '../../pages/cut/cut?imgUrl=' + imgUrl+'&w='+canvasW+'&h='+canvasH
           })
         }

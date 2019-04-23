@@ -1,4 +1,5 @@
 // components/xing-editor.js
+const app = getApp();
 Component({
   /**
    * 组件的属性列表
@@ -77,6 +78,7 @@ Component({
 
     insertNodes: function (nodeList) {
       const textBufferPool = [];
+      if(!nodeList){return;}
       nodeList.forEach((node, index) => {
         if (node.name === 'p') {
           textBufferPool[index] = node.children[0].text;
@@ -92,10 +94,6 @@ Component({
      * 事件：添加文本
      */
     addText: function (e) {
-      wx.redirectTo({
-        url: '../../pages/virtualCamera/virtualCamera',
-      })
-      console.log('ddf');
       this.writeTextToNode();
       const index = e.currentTarget.dataset.index;
       const node = {
@@ -110,11 +108,16 @@ Component({
       }
       const nodeList = this.data.nodeList;
       const textBufferPool = this.data.textBufferPool;
-      nodeList.splice(index + 1, 0, node);
+      nodeList.splice(index+1, 0, node);
       textBufferPool.splice(index + 1, 0, '');
-      this.setData({
+        this.setData({
         nodeList,
         textBufferPool,
+      })
+      app.globalData.li = index;
+      app.globalData.text.splice(index + 1, 0, node);
+      wx.navigateTo({
+        url: '../../pages/virtualCamera/virtualCamera'
       })
     },
 
@@ -142,6 +145,7 @@ Component({
               let nodeList = this.data.nodeList;
               let textBufferPool = this.data.textBufferPool;
               nodeList.splice(index + 1, 0, node);
+              app.globalData.text.splice(index + 1, 0, node);
               textBufferPool.splice(index + 1, 0, tempFilePath);
               this.setData({
                 nodeList,
@@ -162,6 +166,7 @@ Component({
       let nodeList = this.data.nodeList;
       let textBufferPool = this.data.textBufferPool;
       nodeList.splice(index, 1);
+      app.globalData.text.splice(index,1);
       textBufferPool.splice(index, 1);
       this.setData({
         nodeList,
@@ -185,14 +190,34 @@ Component({
      * 事件：提交内容
      */
     onFinish: function (e) {
-      wx.showLoading({
+        wx.showLoading({
         title: '正在保存',
       })
+      this.writeTextToNode();
+      //this.handleOutput();
+      var a = app.globalData.text;
+      for(let i = 0;i<a.length;i++){
+        if (a[i].name == 'img'){
+              wx.uploadFile({
+                url: 'https://www.caption-he.com.cn/xcx/home/index/uploadimg', // 仅为示例，非真实的接口地址
+                filePath: a[i].attrs.src,
+                name: 'file',
+                formData: {
+                  user: 'test'
+                },
+                success(res) {
+                  a[i].attrs.src = res.data
+                  // do something
+                }
+              })
+        } 
+      }
+     // console.log(a);
+      app.globalData.text = a;
       wx.request({
-        url: 'https://www.caption-he.com.cn/xcx/hone/index/updatetxt', // 仅为示例，并非真实的接口地址
+        url: 'https://www.caption-he.com.cn/xcx/home/index/tochange', // 仅为示例，并非真实的接口地址
         data: {
-          x: '',
-          y: ''
+          date: a
         },
         header: {
           'content-type': 'application/json' // 默认值
@@ -201,40 +226,22 @@ Component({
           console.log(res.data)
         }
       })
-     // this.writeTextToNode();
-      //this.handleOutput();
+      app.globalData.text = '';
+      app.globalData.li = '';
     },
 
     /**
      * 方法：HTML转义
      */
     htmlEncode: function (str) {
-      var s = "";
-      if (str.length == 0) return "";
-      s = str.replace(/&/g, "&gt;");
-      s = s.replace(/</g, "&lt;");
-      s = s.replace(/>/g, "&gt;");
-      s = s.replace(/ /g, "&nbsp;");
-      s = s.replace(/\'/g, "&#39;");
-      s = s.replace(/\"/g, "&quot;");
-      s = s.replace(/\n/g, "<br>");
-      return s;
+     
     },
 
     /**
      * 方法：HTML转义
      */
     htmlDecode: function (str) {
-      var s = "";
-      if(str.length == 0) return "";
-      s = str.replace(/&gt;/g, "&");
-      s = s.replace(/&lt;/g, "<");
-      s = s.replace(/&gt;/g, ">");
-      s = s.replace(/&nbsp;/g, " ");
-      s = s.replace(/&#39;/g, "\'");
-      s = s.replace(/&quot;/g, "\"");
-      s = s.replace(/<br>/g, "\n");
-      return s;
+      
     },
 
     /**
@@ -243,6 +250,7 @@ Component({
     writeTextToNode: function (e) {
       const textBufferPool = this.data.textBufferPool;
       const nodeList = this.data.nodeList;
+      if(!nodeList){return;}
       nodeList.forEach((node, index) => {
         if (node.name === 'p') {
           node.children[0].text = textBufferPool[index];
@@ -291,7 +299,7 @@ Component({
      * 方法：将节点转为HTML
      */
     nodeListToHTML: function () {
-      return this.data.nodeList.map(node => `<${node.name} ${Object.keys(node.attrs).map(key => `${key}="${node.attrs[key]}"`).join(' ')}>${node.children ? this.htmlEncode(node.children[0].text) : ''}</${node.name}>`).join('');
+     
     },
 
     /**
@@ -313,6 +321,7 @@ Component({
         options.success = res => {
           const keyChain = this.properties.imageUploadKeyChain.split('.');
           let url = JSON.parse(res.data);
+          if(!keyChain){ return;}
           keyChain.forEach(key => {
             url = url[key];
           })
@@ -340,9 +349,9 @@ Component({
         return;
       }
       const node = nodeList[index];
+     
       if (node.name === 'img' && !node.attrs._uploaded) {
         this.uploadImage(node).then(() => {
-          this.handleOutput(index + 1)
         });
       } else {
         this.handleOutput(index + 1);

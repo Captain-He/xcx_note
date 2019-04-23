@@ -207,7 +207,7 @@ Page({
           albumShotingData: albumShoting.export()
         });
         //拍照后跳转，处理图片
-        wx.redirectTo({
+        wx.navigateTo({
           url: '../../pages/picture/picture?imgUrl='+imgUrl
         })
       }
