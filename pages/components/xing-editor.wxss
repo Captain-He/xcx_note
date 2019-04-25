@@ -7,7 +7,12 @@
   url('iconfont.ttf?t=1533802795939') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
   url('iconfont.svg?t=1533802795939#iconfont') format('svg'); /* iOS 4.1- */
 }
-
+input{
+  width: 300rpx;
+  border: 2rpx solid #000;
+  margin: 50rpx auto;
+  border-radius:10rpx; 
+}
 .iconfont {
   font-family:"iconfont" !important;
   font-size:16px;

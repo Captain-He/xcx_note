@@ -1,21 +1,19 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs",
     "pages/virtualCamera/virtualCamera",
     "pages/picture/picture",
     "pages/user/user",
     "pages/chatBox/chatBox",
     "pages/cut/cut",
-    "pages/txt/txt",
     "pages/addtxt/addtxt",
-    "pages/test/test"
+    "pages/zoom/zoom"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "懒人云笔记",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "拍照做笔记",
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#7f8389",
@@ -31,7 +29,7 @@
         "selectedIconPath": "images/list-selected.png"
       },
       {
-        "pagePath": "pages/test/test",
+        "pagePath": "pages/user/user",
         "text": "历史笔记",
         "iconPath": "images/list.png",
         "selectedIconPath": "images/list-selected.png"
@@ -54,6 +52,6 @@
     "request": 10000,
     "downloadFile": 10000
   },
-  "debug": false
-
+  "debug": false,
+  "sitemapLocation": "sitemap.json"
 }

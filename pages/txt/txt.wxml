@@ -1,4 +1,0 @@
-<!--pages/txt/txt.wxml-->
-<view>
-<text> {{txtData}}</text>
-</view>

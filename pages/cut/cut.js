@@ -29,7 +29,6 @@ clickButton:function(e){
   wx.getStorage({
     key: 'pic',
     success: function(res) {
-      console.log(res.data);
       wx.uploadFile({
         url: 'https://www.caption-he.com.cn/xcx/home/index/upload', // 仅为示例，非真实的接口地址
         filePath: res.data[0],
@@ -59,8 +58,8 @@ clickButton:function(e){
               icon: 'success',
               duration: 2000
             })
-            wx.reLaunch({
-              url:'../addtxt/addtxt'
+            wx.navigateBack({
+              delta: 3
             })
           }
           else{
@@ -69,7 +68,6 @@ clickButton:function(e){
               icon: 'fail',
               duration: 2000
             })
-            console.log(res.data);
           }
         }
       })

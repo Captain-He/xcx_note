@@ -108,9 +108,9 @@ Component({
       }
       const nodeList = this.data.nodeList;
       const textBufferPool = this.data.textBufferPool;
-      nodeList.splice(index+1, 0, node);
+      nodeList.splice(index + 1, 0, node);
       textBufferPool.splice(index + 1, 0, '');
-        this.setData({
+      this.setData({
         nodeList,
         textBufferPool,
       })
@@ -120,7 +120,6 @@ Component({
         url: '../../pages/virtualCamera/virtualCamera'
       })
     },
-
     /**
      * 事件：添加图片
      */
@@ -194,8 +193,8 @@ Component({
         title: '正在保存',
       })
       this.writeTextToNode();
-      //this.handleOutput();
-      var a = app.globalData.text;
+      this.handleOutput();
+      const a = app.globalData.text;
       for(let i = 0;i<a.length;i++){
         if (a[i].name == 'img'){
               wx.uploadFile({
@@ -212,22 +211,24 @@ Component({
               })
         } 
       }
-     // console.log(a);
-      app.globalData.text = a;
       wx.request({
-        url: 'https://www.caption-he.com.cn/xcx/home/index/tochange', // 仅为示例，并非真实的接口地址
+        url: 'https://www.caption-he.com.cn/xcx/home/index/tomysql', // 仅为示例，并非真实的接口地址
         data: {
-          date: a
+          date: app.globalData.text,
+          openid: wx.getStorageSync('key')
         },
+        method:'GET',
         header: {
           'content-type': 'application/json' // 默认值
         },
         success(res) {
-          console.log(res.data)
+              app.globalData.text = '';
+              app.globalData.li = '';
+          wx.reLaunch({
+            url: '../../pages/addtxt/addtxt'
+          })
         }
       })
-      app.globalData.text = '';
-      app.globalData.li = '';
     },
 
     /**
@@ -237,11 +238,21 @@ Component({
      
     },
 
+
     /**
      * 方法：HTML转义
      */
     htmlDecode: function (str) {
-      
+      var s = "";
+      if (str.length == 0) return "";
+      s = str.replace(/&gt;/g, "&");
+      s = s.replace(/&lt;/g, "<");
+      s = s.replace(/&gt;/g, ">");
+      s = s.replace(/&nbsp;/g, " ");
+      s = s.replace(/&#39;/g, "\'");
+      s = s.replace(/&quot;/g, "\"");
+      s = s.replace(/<br>/g, "\n");
+      return s;
     },
 
     /**
