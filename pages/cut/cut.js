@@ -58,9 +58,9 @@ clickButton:function(e){
               icon: 'success',
               duration: 2000
             })
-            wx.navigateBack({
-              delta: 3
-            })
+      wx.reLaunch({
+        url: '../../pages/addtxt/addtxt'
+      })
           }
           else{
             wx.showToast({

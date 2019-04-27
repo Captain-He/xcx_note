@@ -247,10 +247,7 @@ Page({
           })*/
           wx.setStorage({
             key: 'pic',
-            data: imgUrl,
-            success:function(res){
-              console.log('保存成功');
-            }
+            data: imgUrl
           })
           wx.navigateTo({
             url: '../../pages/cut/cut?imgUrl=' + imgUrl+'&w='+canvasW+'&h='+canvasH

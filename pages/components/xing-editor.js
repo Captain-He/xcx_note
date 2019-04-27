@@ -52,6 +52,7 @@ Component({
     windowHeight: 0,
     nodeList: [],
     textBufferPool: [],
+    t:[]
   },
 
   attached: function () {
@@ -78,7 +79,7 @@ Component({
 
     insertNodes: function (nodeList) {
       const textBufferPool = [];
-      if(!nodeList){return;}
+      if (!nodeList) { return; }
       nodeList.forEach((node, index) => {
         if (node.name === 'p') {
           textBufferPool[index] = node.children[0].text;
@@ -165,7 +166,7 @@ Component({
       let nodeList = this.data.nodeList;
       let textBufferPool = this.data.textBufferPool;
       nodeList.splice(index, 1);
-      app.globalData.text.splice(index,1);
+      app.globalData.text.splice(index, 1);
       textBufferPool.splice(index, 1);
       this.setData({
         nodeList,
@@ -184,58 +185,65 @@ Component({
         textBufferPool,
       })
     },
-
     /**
      * 事件：提交内容
      */
     onFinish: function (e) {
-        wx.showLoading({
+      var _this = this;
+      wx.showLoading({
         title: '正在保存',
       })
       this.writeTextToNode();
       this.handleOutput();
-      const a = app.globalData.text;
-      for(let i = 0;i<a.length;i++){
-        if (a[i].name == 'img'){
-              wx.uploadFile({
-                url: 'https://www.caption-he.com.cn/xcx/home/index/uploadimg', // 仅为示例，非真实的接口地址
-                filePath: a[i].attrs.src,
-                name: 'file',
-                formData: {
-                  user: 'test'
-                },
-                success(res) {
-                  a[i].attrs.src = res.data
-                  // do something
-                }
-              })
-        } 
-      }
-      wx.request({
-        url: 'https://www.caption-he.com.cn/xcx/home/index/tomysql', // 仅为示例，并非真实的接口地址
-        data: {
-          date: app.globalData.text,
-          openid: wx.getStorageSync('key')
-        },
-        method:'GET',
-        header: {
-          'content-type': 'application/json' // 默认值
-        },
-        success(res) {
-              app.globalData.text = '';
-              app.globalData.li = '';
-          wx.reLaunch({
-            url: '../../pages/addtxt/addtxt'
+      var a = app.globalData.text;
+      var j = 0;
+      for (let i = 0; i < a.length; i++) {
+        if (a[i].name == 'img') {
+          wx.uploadFile({
+            url: 'https://www.caption-he.com.cn/xcx/home/index/uploadimg', // 仅为示例，非真实的接口地址
+            filePath: a[i].attrs.src,
+            name: 'file',
+            formData: {
+              user: 'test'
+            },
+            success(res) {
+              app.globalData.text[i].attrs.src = res.data
+              // do something
+              if (j == a.length) {
+                wx.request({
+                  url: 'https://www.caption-he.com.cn/xcx/home/index/tomysql', // 仅为示例，并非真实的接口地址
+                  data: {
+                    d: app.globalData.text,
+                    openid: wx.getStorageSync('openid')
+                  },
+                  method: 'GET',
+                  header: {
+                    'content-type': 'application/json' // 默认值
+                  },
+                  success(res) {
+                    
+                    wx.hideLoading();
+                    console.log(res.data);
+                  }
+                })
+              }
+            }
           })
         }
-      })
+        j++;
+      }
+     /* wx.reLaunch({
+        url: '../../pages/user/user'
+      })*/
     },
-
+req:function(){
+  
+},
     /**
      * 方法：HTML转义
      */
     htmlEncode: function (str) {
-     
+
     },
 
 
@@ -261,7 +269,7 @@ Component({
     writeTextToNode: function (e) {
       const textBufferPool = this.data.textBufferPool;
       const nodeList = this.data.nodeList;
-      if(!nodeList){return;}
+      if (!nodeList) { return; }
       nodeList.forEach((node, index) => {
         if (node.name === 'p') {
           node.children[0].text = textBufferPool[index];
@@ -286,7 +294,7 @@ Component({
         html = html.substring(endTag.index + endTag[0].length);
       }
       return htmlNodeList.map(htmlNode => {
-        let node = {attrs: {}};
+        let node = { attrs: {} };
         const startTag = htmlNode.match(/<[^<>]+>/);
         const startTagStr = startTag[0].substring(1, startTag[0].length - 1).trim();
         node.name = startTagStr.split(/\s+/)[0];
@@ -310,7 +318,7 @@ Component({
      * 方法：将节点转为HTML
      */
     nodeListToHTML: function () {
-     
+
     },
 
     /**
@@ -332,7 +340,7 @@ Component({
         options.success = res => {
           const keyChain = this.properties.imageUploadKeyChain.split('.');
           let url = JSON.parse(res.data);
-          if(!keyChain){ return;}
+          if (!keyChain) { return; }
           keyChain.forEach(key => {
             url = url[key];
           })
@@ -360,7 +368,7 @@ Component({
         return;
       }
       const node = nodeList[index];
-     
+
       if (node.name === 'img' && !node.attrs._uploaded) {
         this.uploadImage(node).then(() => {
         });
