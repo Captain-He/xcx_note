@@ -8,7 +8,9 @@
     "pages/cut/cut",
     "pages/addtxt/addtxt",
     "pages/zoom/zoom",
-    "pages/components/xing-editor"
+    "pages/components/xing-editor",
+    "pages/list/list",
+    "pages/entry/entry"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -30,7 +32,7 @@
         "selectedIconPath": "images/list-selected.png"
       },
       {
-        "pagePath": "pages/user/user",
+        "pagePath": "pages/list/list",
         "text": "历史笔记",
         "iconPath": "images/list.png",
         "selectedIconPath": "images/list-selected.png"

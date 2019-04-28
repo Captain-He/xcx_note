@@ -1,0 +1,817 @@
+[ 2019-04-12T10:24:15+08:00 ] ::1 /xcx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.074124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.074284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.217188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.217346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.036367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006426s ]
+
+[ 2019-04-12T10:27:32+08:00 ] ::1 /xcx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2019-04-12T10:42:10+08:00 ] ::1 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+
+[ 2019-04-12T10:42:35+08:00 ] ::1 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001014s ]
+
+[ 2019-04-12T10:54:50+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+
+[ 2019-04-12T10:56:34+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+NOTIC: [8] Undefined index: file C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2019-04-12T10:57:10+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+NOTIC: [8] Undefined index: file C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001018s ]
+
+[ 2019-04-12T10:58:37+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+NOTIC: [8] Undefined index: file C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000520s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000710s ]
+
+[ 2019-04-12T11:00:04+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+NOTIC: [8] Undefined index: file C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 18 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2019-04-12T11:01:29+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+NOTIC: [8] Undefined index: file C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 19 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2019-04-12T11:04:41+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+NOTIC: [8] Undefined index: file C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined index: file C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001191s ]
+
+[ 2019-04-12T11:04:51+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+NOTIC: [8] Undefined index: file C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined index: file C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2019-04-12T11:04:54+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+NOTIC: [8] Undefined index: file C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined index: file C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
+[ 2019-04-12T11:05:10+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+NOTIC: [8] Undefined index: file C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [8] Undefined index: file C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000569s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2019-04-12T11:07:12+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2019-04-12T11:14:16+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000933s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001266s ]
+
+[ 2019-04-12T11:20:28+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+NOTIC: [8] Undefined variable: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2019-04-12T11:21:01+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+NOTIC: [8] Undefined variable: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001428s ]
+
+[ 2019-04-12T11:21:38+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000488s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000688s ]
+
+[ 2019-04-12T11:21:57+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2019-04-12T11:26:04+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000981s ]
+
+[ 2019-04-12T11:28:38+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2019-04-12T11:28:52+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001398s ]
+
+[ 2019-04-12T11:31:38+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001254s ]
+
+[ 2019-04-12T12:36:22+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000660s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2019-04-12T12:37:08+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2019-04-12T12:41:41+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001235s ]
+
+[ 2019-04-12T12:42:20+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001137s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2019-04-12T12:58:16+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000850s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2019-04-12T12:59:07+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000983s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2019-04-12T15:02:36+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002238s ]
+
+[ 2019-04-12T15:02:45+08:00 ] 122.206.190.96 /xcx/home/Ocr
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2019-04-12T15:51:15+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+
+[ 2019-04-12T15:51:17+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+
+[ 2019-04-12T15:51:36+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+
+[ 2019-04-12T15:52:15+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+
+[ 2019-04-12T15:54:30+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+
+[ 2019-04-12T15:56:27+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+
+[ 2019-04-12T15:59:21+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000765s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2019-04-12T15:59:40+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+
+[ 2019-04-12T15:59:51+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+
+[ 2019-04-12T16:01:34+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+
+[ 2019-04-12T16:02:55+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000561s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+
+[ 2019-04-12T16:05:30+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+
+[ 2019-04-12T16:05:54+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2019-04-12T16:06:08+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001085s ]
+
+[ 2019-04-12T16:06:41+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000799s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+
+[ 2019-04-12T16:08:27+08:00 ] 61.158.152.174 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000163s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001394s ]
+
+[ 2019-04-12T16:09:38+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001338s ]
+
+[ 2019-04-12T16:09:53+08:00 ] 61.158.152.174 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001279s ]
+
+[ 2019-04-12T16:10:00+08:00 ] 61.158.152.174 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000897s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2019-04-12T16:10:04+08:00 ] 61.158.152.174 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001676s ]
+
+[ 2019-04-12T16:11:37+08:00 ] 61.158.152.174 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001623s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000920s ]
+
+[ 2019-04-12T16:13:46+08:00 ] 61.158.152.174 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000679s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001274s ]
+
+[ 2019-04-12T16:13:50+08:00 ] 61.158.152.174 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001391s ]
+
+[ 2019-04-12T16:14:32+08:00 ] 61.158.152.174 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001547s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2019-04-12T16:16:37+08:00 ] 61.158.152.174 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001442s ]
+
+[ 2019-04-12T16:17:16+08:00 ] 61.158.152.174 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000966s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001250s ]
+
+[ 2019-04-12T16:18:05+08:00 ] 61.158.152.174 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001218s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001143s ]
+
+[ 2019-04-12T16:19:03+08:00 ] 61.158.152.174 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001091s ]
+

@@ -214,7 +214,7 @@ Component({
                   url: 'https://www.caption-he.com.cn/xcx/home/index/tomysql', // 仅为示例，并非真实的接口地址
                   data: {
                     d: app.globalData.text,
-                    openid: wx.getStorageSync('openid')
+                    openid:wx.getStorageSync('openid')
                   },
                   method: 'GET',
                   header: {
@@ -232,9 +232,9 @@ Component({
         }
         j++;
       }
-     /* wx.reLaunch({
-        url: '../../pages/user/user'
-      })*/
+      wx.reLaunch({
+        url: '../../pages/list/list'
+      })
     },
 req:function(){
   
