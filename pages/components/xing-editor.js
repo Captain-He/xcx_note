@@ -52,9 +52,15 @@ Component({
     windowHeight: 0,
     nodeList: [],
     textBufferPool: [],
-    t:[]
+    t:[],
+    getinput:''
   },
-
+  getInput:function(e){
+    var that = this;
+    that.setData({
+      getinput:e.detail.value
+    })
+  },
   attached: function () {
     const { windowHeight } = wx.getSystemInfoSync();
     this.setData({
@@ -190,6 +196,13 @@ Component({
      */
     onFinish: function (e) {
       var _this = this;
+      console.log(e.detail.value.getInput);
+      if(e.detail.getInput == ''){
+        wx.showToast({
+          title: '请输入标题',
+        })
+        return;
+      }
       wx.showLoading({
         title: '正在保存',
       })
@@ -214,7 +227,8 @@ Component({
                   url: 'https://www.caption-he.com.cn/xcx/home/index/tomysql', // 仅为示例，并非真实的接口地址
                   data: {
                     d: app.globalData.text,
-                    openid:wx.getStorageSync('openid')
+                    openid:wx.getStorageSync('openid'),
+                    title:e.detail.value.getInput
                   },
                   method: 'GET',
                   header: {
