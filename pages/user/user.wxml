@@ -10,7 +10,7 @@
     <navigator class="publish" url="../chatBox/chatBox">
         <text>联系客服</text>
     </navigator>
-    <navigator class="favorite" url="../callset/callset">
-        <text>我的信息</text>
+    <navigator class="favorite" url="../zoom/zoom">
+        <text>本地文档</text>
     </navigator>
 </page>

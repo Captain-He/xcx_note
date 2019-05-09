@@ -53,14 +53,9 @@ Component({
     nodeList: [],
     textBufferPool: [],
     t:[],
-    getinput:''
+    getInput:app.globalData.title
   },
-  getInput:function(e){
-    var that = this;
-    that.setData({
-      getinput:e.detail.value
-    })
-  },
+
   attached: function () {
     const { windowHeight } = wx.getSystemInfoSync();
     this.setData({
@@ -196,8 +191,7 @@ Component({
      */
     onFinish: function (e) {
       var _this = this;
-      console.log(e.detail.value.getInput);
-      if(e.detail.getInput == ''){
+      if(e.detail.value.getInput == ''){
         wx.showToast({
           title: '请输入标题',
         })
@@ -237,6 +231,8 @@ Component({
                   success(res) {
                     
                     wx.hideLoading();
+                    app.globalData.text = Array();
+                    app.globalData.li = '';
                     console.log(res.data);
                   }
                 })
@@ -366,6 +362,18 @@ req:function(){
       })
     },
 
+    gett: function (e) {
+      var _that = this;
+      app.globalData.title=e.detail.value;
+      _that.setData({
+        getInput: e.detail.value
+      })
+    },
+    ready:function(){
+      this.gett();
+      console.log(app.globalData.title);
+      console.log('dd');
+    },
     /**
      * 方法：处理节点，递归
      */
@@ -392,3 +400,4 @@ req:function(){
     },
   }
 })
+

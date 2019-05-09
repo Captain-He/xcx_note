@@ -14,7 +14,11 @@ Page({
     showLoading: false,
 
     // loading提示语
-    loadingMessage: ''
+    loadingMessage: '',
+    pdfs :[],
+    titles:[],
+    nickname:[],
+    id:[]
   },
 
   /**
@@ -53,7 +57,6 @@ Page({
     wx.showLoading({
       title: '正在加载中',
     })
-
     wx.request({
       url: 'https://www.caption-he.com.cn/xcx/home/index/search',//省略方法的路径
       data: {
@@ -66,11 +69,15 @@ Page({
         wx.hideLoading();
         var list = res.data;
         var length = res.data.length;
+        console.log(list);
         for (var i = 0; i < res.data.length; i++) {
           list[i] = res.data[i];
-          wx.setStorageSync('list', list);
-          that.setData({ diaries: list });
+          that.data.id.push(res.data[i]['meta']['id']);
+          that.data.titles.push(res.data[i]['meta']['title']);
+          that.data.pdfs.push(res.data[i]['meta']['pdfurl']);
         }
+        wx.setStorageSync('list', list);
+        that.setData({ diaries: list });
       }
     })
   },
@@ -78,7 +85,7 @@ Page({
   // 查看详情
   showDetail(event) {
     wx.navigateTo({
-      url: '../entry/entry?id=' + event.currentTarget.id,
+      url: '../entry/entry?id=' + event.currentTarget.id + '&pdfurl=' + this.data.pdfs[event.currentTarget.id] + '&title=' + this.data.titles[event.currentTarget.id] + '&ids=' + this.data.id[event.currentTarget.id],
     });
   }
 })

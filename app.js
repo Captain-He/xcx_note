@@ -1,6 +1,10 @@
 //app.js
 App({
+  data: {
+    deviceInfo: {}
+  },
   onLaunch: function () {
+    this.data.deviceInfo = wx.getSystemInfoSync();
     // 展示本地存储能力
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
@@ -36,6 +40,7 @@ App({
   globalData: {
     userInfo: null,
     text:[],
-    li:''
+    li:'',
+    title:'hh'
   }
 })

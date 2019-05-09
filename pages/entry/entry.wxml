@@ -40,7 +40,7 @@
   <view class="header" style="background-image:url({{diary.meta.cover}})">
     <!--顶部固定工具栏-->
     <view class="toolbar">
-      <image class="item" mode="aspectFit" wx:for="{{toolbar}}" src="{{item}}"></image>
+      <image class="item" mode="aspectFit"  src="../../images/nav/download.png" bindtap='downloadFile'></image>
     </view>
 
     <!--日记meta信息区-->
@@ -48,7 +48,7 @@
       <image class="avatar" mode="aspectFit" src="{{diary.meta.avatar}}"> </image>
       <view class="desc">
           <view class="item">{{diary.meta.title}}</view>
-          <view class="item">{{diary.meta.meta}}</view>
+          <view class="item">{{diary.meta.create_time}}</view>
       </view>
     </view>
   </view>

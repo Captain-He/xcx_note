@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "navigationBarBackgroundColor": "#b3d4db",
+  "navigationBarTitleText": "本地列表",
+  "navigationBarTextStyle": "white"
 }
