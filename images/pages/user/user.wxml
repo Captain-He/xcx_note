@@ -1,0 +1,16 @@
+<page>
+    <view class="user-info">
+        <image src="{{userInfo.avatar}}" class="avatar" />
+        <text class="nickname">{{userInfo.nickname}}</text>
+        <view class="total">
+            <text>{{total.view}}</text>欢迎使用 懒人云笔记
+            <text>{{total.favorite}}</text>
+        </view>
+    </view>
+    <navigator class="publish" url="../chatBox/chatBox">
+        <text>联系客服</text>
+    </navigator>
+    <navigator class="favorite" url="../zoom/zoom">
+        <text>本地文档</text>
+    </navigator>
+</page>

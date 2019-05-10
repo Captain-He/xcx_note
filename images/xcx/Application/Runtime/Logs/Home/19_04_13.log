@@ -1,0 +1,1186 @@
+[ 2019-04-13T14:26:00+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002102s ]
+
+[ 2019-04-13T14:26:25+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001153s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001331s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001818s ]
+
+[ 2019-04-13T14:27:22+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-04-13T14:29:08+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001334s ]
+
+[ 2019-04-13T14:31:11+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: savepath C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined index: savename C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000980s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001296s ]
+
+[ 2019-04-13T14:32:22+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001445s ]
+
+[ 2019-04-13T14:33:21+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001267s ]
+
+[ 2019-04-13T14:33:24+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001106s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001471s ]
+
+[ 2019-04-13T14:34:44+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001338s ]
+
+[ 2019-04-13T14:35:11+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001239s ]
+
+[ 2019-04-13T14:35:14+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2019-04-13T14:37:01+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001057s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001294s ]
+
+[ 2019-04-13T14:37:32+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001128s ]
+
+[ 2019-04-13T14:37:53+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000944s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001208s ]
+
+[ 2019-04-13T14:39:10+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2019-04-13T14:39:13+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001298s ]
+
+[ 2019-04-13T14:39:37+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2019-04-13T14:39:47+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001304s ]
+
+[ 2019-04-13T14:39:51+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000568s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000997s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001331s ]
+
+[ 2019-04-13T14:39:53+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001348s ]
+
+[ 2019-04-13T14:39:54+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2019-04-13T14:39:55+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2019-04-13T14:54:27+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2019-04-13T14:54:34+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001074s ]
+
+[ 2019-04-13T14:55:25+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000915s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001383s ]
+
+[ 2019-04-13T14:56:31+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001398s ]
+
+[ 2019-04-13T14:56:33+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000932s ]
+
+[ 2019-04-13T14:56:34+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2019-04-13T14:57:43+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001402s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001239s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001568s ]
+
+[ 2019-04-13T14:58:25+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001444s ]
+
+[ 2019-04-13T14:58:27+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001183s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001559s ]
+
+[ 2019-04-13T14:58:28+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001008s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001273s ]
+
+[ 2019-04-13T14:58:29+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2019-04-13T14:58:29+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2019-04-13T14:58:29+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001040s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001608s ]
+
+[ 2019-04-13T14:58:30+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001440s ]
+
+[ 2019-04-13T14:58:30+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000773s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2019-04-13T14:58:30+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001363s ]
+
+[ 2019-04-13T14:58:31+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000294s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000944s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001161s ]
+
+[ 2019-04-13T14:58:31+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2019-04-13T14:58:32+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000747s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001534s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2019-04-13T14:58:32+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000943s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2019-04-13T14:58:32+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001534s ]
+
+[ 2019-04-13T14:58:33+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2019-04-13T14:58:33+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000898s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2019-04-13T14:58:34+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2019-04-13T14:58:34+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001060s ]
+
+[ 2019-04-13T14:58:51+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001341s ]
+
+[ 2019-04-13T14:59:33+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001036s ]
+
+[ 2019-04-13T14:59:38+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001085s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001382s ]
+
+[ 2019-04-13T15:00:00+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2019-04-13T18:42:50+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001275s ]
+
+[ 2019-04-13T18:42:53+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2019-04-13T18:42:54+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001404s ]
+
+[ 2019-04-13T18:42:59+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001170s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2019-04-13T21:31:43+08:00 ] 61.158.152.174 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001291s ]
+
+[ 2019-04-13T21:34:06+08:00 ] 122.206.190.61 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001094s ]
+
+[ 2019-04-13T21:34:44+08:00 ] 61.158.152.174 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001182s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001495s ]
+
+[ 2019-04-13T21:35:41+08:00 ] 122.206.190.61 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2019-04-13T21:36:47+08:00 ] 122.206.190.61 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000703s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2019-04-13T21:39:57+08:00 ] 61.158.152.174 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2019-04-13T21:40:49+08:00 ] 61.158.152.174 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001067s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001432s ]
+
+[ 2019-04-13T21:41:33+08:00 ] 61.158.152.174 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+

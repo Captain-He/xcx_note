@@ -1,0 +1,1190 @@
+[ 2019-04-20T09:36:09+08:00 ] 122.206.190.96 /xcx/home/index/txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002213s ]
+ERR: 非法操作:txt
+
+[ 2019-04-20T15:17:38+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002014s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002220s ]
+NOTIC: [2] fread(): Length parameter must be greater than 0 C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 62 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002097s ]
+
+[ 2019-04-20T15:19:07+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+NOTIC: [2] fread(): Length parameter must be greater than 0 C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 62 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001228s ]
+
+[ 2019-04-20T15:47:08+08:00 ] 122.206.190.96 /xcx/home/inde/getuserinfo?code=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+ERR: 无法加载控制器:Inde
+
+[ 2019-04-20T15:47:38+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?code=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+
+[ 2019-04-20T15:49:38+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?code=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+
+[ 2019-04-20T15:50:20+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?code=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2019-04-20T15:50:22+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?code=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001087s ]
+
+[ 2019-04-20T15:50:24+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?code=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001074s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001417s ]
+
+[ 2019-04-20T15:50:26+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?code=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000877s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001108s ]
+
+[ 2019-04-20T15:50:28+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?code=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001837s ]
+
+[ 2019-04-20T15:50:30+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?code=undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+NOTIC: [8] curl_setopt(): CURLOPT_SSL_VERIFYHOST no longer accepts the value 1, value 2 will be used instead C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 26 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001352s ]
+
+[ 2019-04-20T16:14:45+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001239s ]
+NOTIC: [8] Undefined index: code C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: nick C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: avaurl C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: sex C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: openid C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001682s ]
+
+[ 2019-04-20T16:14:59+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?code=023v2rpn0FExUj1RIFnn0W8wpn0v2rpC&nick=%E5%92%8C%E5%90%8C%E5%AD%A6Smile&avaurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FThcAOksIWA40mjIibiaibnl8ahibMSbWmicmOjmFU4haNXAqrTu5IibdcVVaUaymLTfdzVXV3SKx3VQNLBw4JJmr1Ihg%2F132&sex=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+NOTIC: [8] Undefined index: openid C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001557s ]
+
+[ 2019-04-20T16:16:23+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?code=023WUKKa1Wtzxw0vlYNa1PrLKa1WUKKW&nick=%E5%92%8C%E5%90%8C%E5%AD%A6Smile&avaurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FThcAOksIWA40mjIibiaibnl8ahibMSbWmicmOjmFU4haNXAqrTu5IibdcVVaUaymLTfdzVXV3SKx3VQNLBw4JJmr1Ihg%2F132&sex=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003169s ]
+NOTIC: [8] Undefined index: openid C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001560s ]
+
+[ 2019-04-20T16:18:44+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?code=0239tMPN0T85xb2HksQN0QV3QN09tMPi&nick=%E5%92%8C%E5%90%8C%E5%AD%A6Smile&avaurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FThcAOksIWA40mjIibiaibnl8ahibMSbWmicmOjmFU4haNXAqrTu5IibdcVVaUaymLTfdzVXV3SKx3VQNLBw4JJmr1Ihg%2F132&sex=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+NOTIC: [8] Undefined index: openid C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000972s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001414s ]
+
+[ 2019-04-20T16:24:43+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [8] Undefined index: code C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: nick C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: avaurl C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: sex C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: openid C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001352s ]
+
+[ 2019-04-20T16:27:16+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000516s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+NOTIC: [8] Undefined index: code C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: nick C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: avaurl C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: sex C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: openid C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001162s ]
+
+[ 2019-04-20T16:27:49+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?code=023Bw4S62ub8tS043GR62bjPR62Bw4SL&nick=%E5%92%8C%E5%90%8C%E5%AD%A6Smile&avaurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FThcAOksIWA40mjIibiaibnl8ahibMSbWmicmOjmFU4haNXAqrTu5IibdcVVaUaymLTfdzVXV3SKx3VQNLBw4JJmr1Ihg%2F132&sex=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+NOTIC: [8] Undefined index: openid C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001332s ]
+
+[ 2019-04-20T16:31:06+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?code=033OrSF72XjQER05fID720laG72OrSFy&nick=%E5%92%8C%E5%90%8C%E5%AD%A6Smile&avaurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FThcAOksIWA40mjIibiaibnl8ahibMSbWmicmOjmFU4haNXAqrTu5IibdcVVaUaymLTfdzVXV3SKx3VQNLBw4JJmr1Ihg%2F132&sex=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+NOTIC: [8] Undefined index: openid C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001185s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001518s ]
+
+[ 2019-04-20T16:33:10+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?code=023WmRDR07UM972VxrAR0faKDR0WmRDc&nick=%E5%92%8C%E5%90%8C%E5%AD%A6Smile&avaurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FThcAOksIWA40mjIibiaibnl8ahibMSbWmicmOjmFU4haNXAqrTu5IibdcVVaUaymLTfdzVXV3SKx3VQNLBw4JJmr1Ihg%2F132&sex=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+NOTIC: [8] Undefined index: openid C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 29 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000794s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001062s ]
+
+[ 2019-04-20T16:39:09+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+NOTIC: [8] Undefined index: code C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: nick C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: avaurl C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: sex C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: openid C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 31 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001184s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001602s ]
+
+[ 2019-04-20T16:40:53+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+NOTIC: [8] Undefined index: code C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: nick C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: avaurl C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: sex C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: openid C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 31 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2019-04-20T16:40:55+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+NOTIC: [8] Undefined index: code C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: nick C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: avaurl C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: sex C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: openid C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 31 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000948s ]
+
+[ 2019-04-20T16:40:58+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+NOTIC: [8] Undefined index: code C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 13 行.
+NOTIC: [8] Undefined index: nick C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 14 行.
+NOTIC: [8] Undefined index: avaurl C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 15 行.
+NOTIC: [8] Undefined index: sex C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 16 行.
+NOTIC: [8] Undefined index: openid C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 31 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001201s ]
+
+[ 2019-04-20T16:47:31+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+NOTIC: [8] Undefined index: openid C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 22 行.
+NOTIC: [8] Undefined index: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 31 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001175s ]
+
+[ 2019-04-20T17:07:41+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+NOTIC: [8] Undefined variable: con C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [2] mysqli_error() expects exactly 1 parameter, 0 given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 47 行.
+
+[ 2019-04-20T17:29:52+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+NOTIC: [8] Undefined variable: con C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [2] mysqli_error() expects exactly 1 parameter, 0 given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 47 行.
+
+[ 2019-04-20T17:31:33+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+NOTIC: [8] Undefined variable: con C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 19 行.
+NOTIC: [2] mysqli_error() expects exactly 1 parameter, 0 given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 47 行.
+
+[ 2019-04-20T17:32:48+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000877s ]
+NOTIC: [8] Undefined variable: con C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [2] mysqli_error() expects exactly 1 parameter, 0 given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 52 行.
+
+[ 2019-04-20T17:32:52+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+NOTIC: [8] Undefined variable: con C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [2] mysqli_error() expects exactly 1 parameter, 0 given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 52 行.
+
+[ 2019-04-20T17:33:56+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+NOTIC: [8] Undefined variable: con C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [2] mysqli_error() expects exactly 1 parameter, 0 given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 55 行.
+
+[ 2019-04-20T17:33:57+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001199s ]
+NOTIC: [8] Undefined variable: con C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [2] mysqli_error() expects exactly 1 parameter, 0 given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 55 行.
+
+[ 2019-04-20T17:33:58+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+NOTIC: [8] Undefined variable: con C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [2] mysqli_error() expects exactly 1 parameter, 0 given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 55 行.
+
+[ 2019-04-20T17:33:58+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+NOTIC: [8] Undefined variable: con C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [2] mysqli_error() expects exactly 1 parameter, 0 given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 55 行.
+
+[ 2019-04-20T17:33:58+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001263s ]
+NOTIC: [8] Undefined variable: con C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [2] mysqli_error() expects exactly 1 parameter, 0 given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 55 行.
+
+[ 2019-04-20T17:33:58+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001012s ]
+NOTIC: [8] Undefined variable: con C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [2] mysqli_error() expects exactly 1 parameter, 0 given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 55 行.
+
+[ 2019-04-20T17:36:19+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+
+[ 2019-04-20T17:36:51+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+
+[ 2019-04-20T17:36:52+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+
+[ 2019-04-20T17:36:53+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+
+[ 2019-04-20T17:37:53+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [8] Undefined variable: openid C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined variable: openid C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: openid C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2019-04-20T17:38:05+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+NOTIC: [8] Undefined variable: openid C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined variable: openid C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: openid C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 43 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001197s ]
+
+[ 2019-04-20T17:40:06+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?openid=oUQgn0VX055-_zsneKsf2rttYsMM&nick=%E5%92%8C%E5%90%8C%E5%AD%A6Smile&avaurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FThcAOksIWA40mjIibiaibnl8ahibMSbWmicmOjmFU4haNXAqrTu5IibdcVVaUaymLTfdzVXV3SKx3VQNLBw4JJmr1Ihg%2F132&sex=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+NOTIC: [8] Undefined variable: openid C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 21 行.
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 23 行.
+NOTIC: [8] Undefined variable: openid C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 35 行.
+NOTIC: [8] Undefined variable: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 35 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001075s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001441s ]
+
+[ 2019-04-20T17:41:33+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?openid=oUQgn0VX055-_zsneKsf2rttYsMM&nick=%E5%92%8C%E5%90%8C%E5%AD%A6Smile&avaurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FThcAOksIWA40mjIibiaibnl8ahibMSbWmicmOjmFU4haNXAqrTu5IibdcVVaUaymLTfdzVXV3SKx3VQNLBw4JJmr1Ihg%2F132&sex=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001254s ]
+
+[ 2019-04-20T17:45:31+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?openid=oUQgn0VX055-_zsneKsf2rttYsMM&nick=%E5%92%8C%E5%90%8C%E5%AD%A6Smile&avaurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FThcAOksIWA40mjIibiaibnl8ahibMSbWmicmOjmFU4haNXAqrTu5IibdcVVaUaymLTfdzVXV3SKx3VQNLBw4JJmr1Ihg%2F132&sex=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002163s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002452s ]
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002479s ]
+
+[ 2019-04-20T17:47:43+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?openid=oUQgn0VX055-_zsneKsf2rttYsMM&nick=%E5%92%8C%E5%90%8C%E5%AD%A6Smile&avaurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FThcAOksIWA40mjIibiaibnl8ahibMSbWmicmOjmFU4haNXAqrTu5IibdcVVaUaymLTfdzVXV3SKx3VQNLBw4JJmr1Ihg%2F132&sex=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001010s ]
+
+[ 2019-04-20T18:50:44+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001771s ]
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002376s ]
+
+[ 2019-04-20T18:53:25+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?openid=oUQgn0VX055-_zsneKsf2rttYsMM&nick=%E5%92%8C%E5%90%8C%E5%AD%A6Smile&avaurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FThcAOksIWA40mjIibiaibnl8ahibMSbWmicmOjmFU4haNXAqrTu5IibdcVVaUaymLTfdzVXV3SKx3VQNLBw4JJmr1Ihg%2F132&sex=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001064s ]
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2019-04-20T18:53:40+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?openid=oUQgn0VX055-_zsneKsf2rttYsMM&nick=%E5%92%8C%E5%90%8C%E5%AD%A6Smile&avaurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FThcAOksIWA40mjIibiaibnl8ahibMSbWmicmOjmFU4haNXAqrTu5IibdcVVaUaymLTfdzVXV3SKx3VQNLBw4JJmr1Ihg%2F132&sex=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2019-04-20T19:00:54+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?openid=oUQgn0VX055-_zsneKsf2rttYsMM&nick=%E5%92%8C%E5%90%8C%E5%AD%A6Smile&avaurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FThcAOksIWA40mjIibiaibnl8ahibMSbWmicmOjmFU4haNXAqrTu5IibdcVVaUaymLTfdzVXV3SKx3VQNLBw4JJmr1Ihg%2F132&sex=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000770s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001332s ]
+
+[ 2019-04-20T19:02:07+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+NOTIC: [2] fread(): Length parameter must be greater than 0 C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 107 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2019-04-20T19:02:25+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Undefined variable: txt C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001411s ]
+
+[ 2019-04-20T19:02:35+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000777s ]
+
+[ 2019-04-20T19:04:05+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?openid=oUQgn0VX055-_zsneKsf2rttYsMM&nick=%E5%92%8C%E5%90%8C%E5%AD%A6Smile&avaurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FThcAOksIWA40mjIibiaibnl8ahibMSbWmicmOjmFU4haNXAqrTu5IibdcVVaUaymLTfdzVXV3SKx3VQNLBw4JJmr1Ihg%2F132&sex=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002368s ]
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 24 行.
+NOTIC: [8] Undefined variable: session_key C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 36 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002257s ]
+
+[ 2019-04-20T19:07:28+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?openid=oUQgn0VX055-_zsneKsf2rttYsMM&nick=%E5%92%8C%E5%90%8C%E5%AD%A6Smile&avaurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FThcAOksIWA40mjIibiaibnl8ahibMSbWmicmOjmFU4haNXAqrTu5IibdcVVaUaymLTfdzVXV3SKx3VQNLBw4JJmr1Ihg%2F132&sex=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001274s ]
+
+[ 2019-04-20T19:08:13+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?openid=oUQgn0VX055-_zsneKsf2rttYsMM&nick=%E5%92%8C%E5%90%8C%E5%AD%A6Smile&avaurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FThcAOksIWA40mjIibiaibnl8ahibMSbWmicmOjmFU4haNXAqrTu5IibdcVVaUaymLTfdzVXV3SKx3VQNLBw4JJmr1Ihg%2F132&sex=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001390s ]
+
+[ 2019-04-20T19:08:35+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?openid=oUQgn0VX055-_zsneKsf2rttYsMM&nick=%E5%92%8C%E5%90%8C%E5%AD%A6Smile&avaurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FThcAOksIWA40mjIibiaibnl8ahibMSbWmicmOjmFU4haNXAqrTu5IibdcVVaUaymLTfdzVXV3SKx3VQNLBw4JJmr1Ihg%2F132&sex=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000799s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2019-04-20T19:13:57+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?openid=oUQgn0VX055-_zsneKsf2rttYsMM&nick=%E5%92%8C%E5%90%8C%E5%AD%A6Smile&avaurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FThcAOksIWA40mjIibiaibnl8ahibMSbWmicmOjmFU4haNXAqrTu5IibdcVVaUaymLTfdzVXV3SKx3VQNLBw4JJmr1Ihg%2F132&sex=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002315s ]
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001791s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002123s ]
+
+[ 2019-04-20T19:39:50+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?openid=oUQgn0VX055-_zsneKsf2rttYsMM&nick=%E5%92%8C%E5%90%8C%E5%AD%A6Smile&avaurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FThcAOksIWA40mjIibiaibnl8ahibMSbWmicmOjmFU4haNXAqrTu5IibdcVVaUaymLTfdzVXV3SKx3VQNLBw4JJmr1Ihg%2F132&sex=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005148s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001678s ]
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002110s ]
+
+[ 2019-04-20T19:45:20+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?openid=oUQgn0VX055-_zsneKsf2rttYsMM&nick=%E5%92%8C%E5%90%8C%E5%AD%A6Smile&avaurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FThcAOksIWA40mjIibiaibnl8ahibMSbWmicmOjmFU4haNXAqrTu5IibdcVVaUaymLTfdzVXV3SKx3VQNLBw4JJmr1Ihg%2F132&sex=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+NOTIC: [2] mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 24 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2019-04-20T19:50:11+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?openid=oUQgn0VX055-_zsneKsf2rttYsMM&nick=%E5%92%8C%E5%90%8C%E5%AD%A6Smile&avaurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FThcAOksIWA40mjIibiaibnl8ahibMSbWmicmOjmFU4haNXAqrTu5IibdcVVaUaymLTfdzVXV3SKx3VQNLBw4JJmr1Ihg%2F132&sex=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001324s ]
+
+[ 2019-04-20T19:50:11+08:00 ] 122.206.190.96 /xcx/home/index/getuserinfo?openid=oUQgn0VX055-_zsneKsf2rttYsMM&nick=%E5%92%8C%E5%90%8C%E5%AD%A6Smile&avaurl=https%3A%2F%2Fwx.qlogo.cn%2Fmmopen%2Fvi_32%2FThcAOksIWA40mjIibiaibnl8ahibMSbWmicmOjmFU4haNXAqrTu5IibdcVVaUaymLTfdzVXV3SKx3VQNLBw4JJmr1Ihg%2F132&sex=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2019-04-20T19:56:41+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000969s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2019-04-20T19:57:33+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000899s ]
+
+[ 2019-04-20T19:57:35+08:00 ] 122.206.190.96 /xcx/home/index/updatetxt?x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000856s ]
+
+[ 2019-04-20T22:20:05+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000136s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001719s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002007s ]
+NOTIC: [2] fread(): Length parameter must be greater than 0 C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 107 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002570s ]
+
+[ 2019-04-20T22:51:21+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+NOTIC: [2] fread(): Length parameter must be greater than 0 C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 107 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000617s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000828s ]
+
+[ 2019-04-20T22:51:47+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+NOTIC: [2] fread(): Length parameter must be greater than 0 C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 107 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000980s ]
+
+[ 2019-04-20T22:52:19+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000498s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Undefined variable: txt C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001721s ]
+
+[ 2019-04-20T22:52:26+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2019-04-20T22:52:36+08:00 ] 122.206.190.96 /xcx/home/index/updatetxt?x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2019-04-20T22:54:04+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+NOTIC: [2] fread(): Length parameter must be greater than 0 C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 107 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2019-04-20T22:54:25+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+NOTIC: [2] fread(): Length parameter must be greater than 0 C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 107 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2019-04-20T22:54:44+08:00 ] 122.206.190.96 /xcx/home/index/upload
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Undefined variable: txt C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant data - assumed 'data' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant items - assumed 'items' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+NOTIC: [8] Use of undefined constant itemstring - assumed 'itemstring' C:\wamp\www\xcx\Application\Home\Controller\OcrController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000952s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2019-04-20T22:54:50+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001157s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001581s ]
+
+[ 2019-04-20T22:55:53+08:00 ] 122.206.190.96 /xcx/home/index/updatetxt?x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000729s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2019-04-20T22:56:14+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+NOTIC: [2] fread(): Length parameter must be greater than 0 C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 107 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2019-04-20T22:56:23+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] fread(): Length parameter must be greater than 0 C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 107 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001414s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001744s ]
+
+[ 2019-04-20T22:56:38+08:00 ] 122.206.190.96 /xcx/home/index/updatetxt?x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001267s ]
+
+[ 2019-04-20T22:59:18+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+NOTIC: [2] fread(): Length parameter must be greater than 0 C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 107 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000707s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2019-04-20T22:59:49+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+NOTIC: [2] fread(): Length parameter must be greater than 0 C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 107 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000958s ]
+
+[ 2019-04-20T23:03:26+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+NOTIC: [2] fread(): Length parameter must be greater than 0 C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 107 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001205s ]
+
+[ 2019-04-20T23:03:46+08:00 ] 122.206.190.96 /xcx/home/index/updatetxt?x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000673s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2019-04-20T23:08:42+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+NOTIC: [2] fread(): Length parameter must be greater than 0 C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 107 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001150s ]
+
+[ 2019-04-20T23:08:55+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+NOTIC: [2] fread(): Length parameter must be greater than 0 C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 107 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2019-04-20T23:09:08+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001097s ]
+NOTIC: [2] fread(): Length parameter must be greater than 0 C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 107 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2019-04-20T23:09:23+08:00 ] 122.206.190.96 /xcx/home/index/updatetxt?x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000776s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001222s ]
+
+[ 2019-04-20T23:11:28+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000728s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+NOTIC: [2] fread(): Length parameter must be greater than 0 C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 107 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000741s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2019-04-20T23:11:39+08:00 ] 122.206.190.96 /xcx/home/index/updatetxt?x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2019-04-20T23:14:59+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+NOTIC: [2] fread(): Length parameter must be greater than 0 C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 107 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000782s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2019-04-20T23:15:09+08:00 ] 122.206.190.96 /xcx/home/index/updatetxt?x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001542s ]
+
+[ 2019-04-20T23:17:11+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001276s ]
+NOTIC: [2] fread(): Length parameter must be greater than 0 C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 107 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000978s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001266s ]
+
+[ 2019-04-20T23:17:51+08:00 ] 122.206.190.96 /xcx/home/index/read
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001250s ]
+NOTIC: [2] fread(): Length parameter must be greater than 0 C:\wamp\www\xcx\Application\Home\Controller\IndexController.class.php 第 107 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001360s ]
+
