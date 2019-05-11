@@ -40,7 +40,11 @@
   <view class="header" style="background-image:url({{diary.meta.cover}})">
     <!--顶部固定工具栏-->
     <view class="toolbar">
-      <image class="item" mode="aspectFit"  src="../../images/nav/download.png" bindtap='downloadFile'></image>
+      <image class="item" mode="aspectFit"  src="../../images/nav/download.png" bindtap='downloadFile' style="width:80rpx;height:80rpx;"></image>
+  <icon type="cancel" size="26" color='white' bindtap='del'></icon>
+      <button class='share' id="shareBtn" open-type="share" type="primary" hover-class="other-button-hover">
+        <image src='../../images/nav/share.png'></image>
+      </button>
     </view>
 
     <!--日记meta信息区-->
@@ -64,7 +68,7 @@
         <view style="display:inline-block">THE</view>
         <view style="display:inline-block;margin-left:10rpx;color:#2EA1CA;">END</view>
       </view>
-      <view class="item" style="font-size:24rpx;color:gray">DESIGNED BY 小闹钟</view>
+      <view class="item" style="font-size:24rpx;color:gray">DESIGNED BY Caption-He</view>
     </view>
   </view>
 </view>

@@ -53,7 +53,7 @@ Component({
     nodeList: [],
     textBufferPool: [],
     t:[],
-    getInput:app.globalData.title
+    getInput:''
   },
 
   attached: function () {
@@ -368,11 +368,6 @@ req:function(){
       _that.setData({
         getInput: e.detail.value
       })
-    },
-    ready:function(){
-      this.gett();
-      console.log(app.globalData.title);
-      console.log('dd');
     },
     /**
      * 方法：处理节点，递归

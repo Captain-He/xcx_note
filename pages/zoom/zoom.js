@@ -20,6 +20,9 @@ Page({
   touchStartState: 0, // 开始触摸时的状态 0 未显示菜单 1 显示菜单
   swipeDirection: 0, //是否触发水平滑动 0:未触发 1:触发水平滑动 2:触发垂直滑动
   onLoad: function () {
+  wx.showLoading({
+    title: '加载中',
+  })
     var that =this;
     this.pixelRatio = app.data.deviceInfo.pixelRatio;
     var windowHeight = app.data.deviceInfo.windowHeight;
@@ -31,29 +34,40 @@ Page({
       dirPath: wx.env.USER_DATA_PATH,
       success: function (res) {
         list = res.files;
-        for (let i = 0; i < list.length; i++) {
-          var t = list[i].split('.');
-          console.log(t['0']);
-          wx.request({
-            url: 'https://www.caption-he.com.cn/xcx/home/index/idsearch',
-            data: {
-              id:t['0']
-            },
-            success: function (res) {
-              var msg = {};
-              msg.carid = res.data.title;
-              msg.msgText =  res.data.nick+"   "+res.data.time;
-              msg.id = list[i];
-              msg.headerImg = res.data.imgurl;
-              msg.siteImg = '../../images/site.png';
-              if (res.data.length != 0)
-              that.data.msgList.push(msg);
-              ji++;
-              if (ji == list.length)
-                that.setData({ msgList: that.data.msgList, height: height });
-            }
-          })       
+        console.log(list);
+        if(list.length == 0||list.length==1)
+        {
+          wx.hideLoading();
+          wx.showToast({
+            title: '本地没有文档',
+          })
+        } else{
+          for (let i = 0; i < list.length; i++) {
+            var t = list[i].split('.');
+            console.log(t['0']);
+            wx.request({
+              url: 'https://www.caption-he.com.cn/xcx/home/index/idsearch',
+              data: {
+                id: t['0']
+              },
+              success: function (res) {
+                var msg = {};
+                msg.carid = res.data.title;
+                msg.msgText = res.data.nick + "   " + res.data.time;
+                msg.id = list[i];
+                msg.headerImg = res.data.imgurl;
+                msg.siteImg = '../../images/site.png';
+                if (res.data.length != 0)
+                  that.data.msgList.push(msg);
+                ji++;
+                if (ji == list.length)
+                  that.setData({ msgList: that.data.msgList, height: height });
+                wx.hideLoading();
+              }
+            })
+          }
         }
+
       }
     })
 
@@ -166,13 +180,24 @@ Page({
   },
   onDeleteMsgTap: function (e) {
     var that = this;
-    console.log(wx.env.USER_DATA_PATH + '/' + e.currentTarget.id);
-    var fs = wx.getFileSystemManager();
-    fs.rename({
-      oldPath: wx.env.USER_DATA_PATH + '/' + e.currentTarget.id,
-      newPath: wx.env.USER_DATA_PATH + '/' + '删.pdf',
+    wx.showModal({
+      title: '提示',
+      content: '确定要删除这个文档吗？',
       success:function(res){
-        that.deleteMsgItem(e);
+        if(res.confirm){
+          console.log(wx.env.USER_DATA_PATH + '/' + e.currentTarget.id);
+          var fs = wx.getFileSystemManager();
+          fs.rename({
+            oldPath: wx.env.USER_DATA_PATH + '/' + e.currentTarget.id,
+            newPath: wx.env.USER_DATA_PATH + '/' + '删.pdf',
+            success: function (res) {
+              that.deleteMsgItem(e);
+              wx.showToast({
+                title: '删除成功',
+              })
+            }
+          })
+        }else{}
       }
     })
   },

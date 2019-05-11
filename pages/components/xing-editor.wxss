@@ -9,9 +9,12 @@
 }
 input{
   width: 300rpx;
-  border: 2rpx solid #000;
-  margin: 50rpx auto;
+  border: 2rpx solid #bdb7b7;
+  margin: 20rpx auto;
   border-radius:10rpx; 
+}
+.wenzi{
+ color: #b1adad 
 }
 .iconfont {
   font-family:"iconfont" !important;

@@ -5,7 +5,7 @@
   style="min-height: {{windowHeight}}px"
   scroll-y
   enable-back-to-top>
-  <view>标题：<input name="getInput" bindinput='gett' type="text" placeholder="请输入" placeholder-style="color:#000;" value='{{getInput}}'></input></view>内容：
+  <view ><view class='wenzi'>标题：</view><input name="getInput" bindinput='gett' type="text" placeholder="请输入" placeholder-style="color:#000;" value='{{getInput}}'></input></view><view class='wenzi'>内容：</view>
   <view class="editor-add-wrapper">
     <view class="editor-add iconfont icon-align-left" data-index="-1" bindtap="addText"></view>
     <view class="editor-add iconfont icon-image" data-index="-1" bindtap="addImage"></view>

@@ -7,7 +7,7 @@ Page({
   onLoad: function () {
     var that = this;
     const a = app.globalData.text;
-   var text = '';
+    var text = '';
     for (let i = 0; i < a.length; i++) {
       if (a[i].name == 'img') {
         text += '<img class="xing-img" style="width: 100%" src="' +
