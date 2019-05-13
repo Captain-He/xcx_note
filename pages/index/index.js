@@ -16,6 +16,7 @@ Page({
     })
   },
   onLoad: function () {
+     this.login();
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
@@ -57,8 +58,9 @@ Page({
     wx.login({
       success: function (res) {
         var code = res.code;//发送给服务器的code
+        console.log(code)
         wx.request({
-          url: 'https://api.weixin.qq.com/sns/jscode2session?appid=APPID&secret=SECRET&js_code=JSCODE&grant_type=authorization_code',
+          url: 'https://www.caption-he.com.cn/xcx/home/index/getopenid',
           data: {
             appid: 'wxe414a8d62204cc8b',
             secret: 'cee99d299baa43f5395faa74ba77cad8',
@@ -66,8 +68,8 @@ Page({
             grant_type: 'authorization_code'
           },
           success(v) {
-            //console.log(v.data.openid)
-            wx.setStorageSync('openid', v.data.openid);
+            console.log(v.data)
+            wx.setStorageSync('openid', v.data);
           }
         })
         wx.getUserInfo({

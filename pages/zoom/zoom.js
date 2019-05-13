@@ -31,11 +31,11 @@ Page({
     var list = Array();
     var ji = 0;
     fs.readdir({
-      dirPath: wx.env.USER_DATA_PATH,
+      dirPath: wx.env.USER_DATA_PATH+'/pdf',
       success: function (res) {
         list = res.files;
         console.log(list);
-        if(list.length == 0||list.length==1)
+        if(list.length == 0)
         {
           wx.hideLoading();
           wx.showToast({
@@ -205,7 +205,7 @@ Page({
     console.log(e);
   },
   onMarkMsgTap: function (e) {
-    var savepath = wx.env.USER_DATA_PATH + '/' + e.currentTarget.id;
+    var savepath = wx.env.USER_DATA_PATH + '/pdf/' + e.currentTarget.id;
     wx.openDocument({
       filePath: savepath,
       fileType: 'pdf',

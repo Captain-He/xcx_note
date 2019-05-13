@@ -1,0 +1,42 @@
+[ 2019-05-08T11:32:19+08:00 ] 115.61.80.120 /xcx/qwadmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000888s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\xcx\Application\Qwadmin\Controller\ComController.class.php 第 112 行.
+
+[ 2019-05-08T11:32:19+08:00 ] 115.61.80.120 /xcx/index.php/Qwadmin/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000720s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\xcx\Application\Qwadmin\Controller\ComController.class.php 第 112 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000553s ]
+NOTIC: [8] Undefined variable: current C:\wamp\www\xcx\Application\Runtime\Cache\Qwadmin\5a0b7543aefa741f9d0a20af673b511e.php 第 6 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027999s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002877s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001147s ]
+
+[ 2019-05-08T11:32:19+08:00 ] 115.61.80.120 /xcx/index.php/Qwadmin/login/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+

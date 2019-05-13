@@ -7,6 +7,19 @@ class IndexController extends Controller {
        echo 'happy!';
     }
 
+    public function getopenid(){
+    	$appid = I('appid');
+    	$secret = I('secret');
+    	$code = I('js_code');
+    	$grant_type = I('grant_type');
+    	$url = "https://api.weixin.qq.com/sns/jscode2session?appid=$appid&secret=$secret&js_code=$code&grant_type=authorization_code";
+    	$info = file_get_contents($url);
+    	$jsondecode=json_decode($info);
+		$array=get_object_vars($jsondecode);
+        echo $array['openid'];
+
+    }
+
     //获取用户信息
     public function getuserinfo(){
 
@@ -70,44 +83,9 @@ class IndexController extends Controller {
 	   else 
 	   {
 	   	$baesURL = 'C:\wamp\www\xcx\Uploads/'.$info['savepath'].$info['savename'];
-	   // 上传成功
-	     /*$baesURL = 'Uploads/'.$info['savepath'].$info['savename'];
-	     $pic_url = $baesURL;
-	     $model = new Model('Message');
-         $data = array(
-            'message_name' => $message_name,
-            'content' => $content,
-            'pic_url' => $pic_url,
-            'box_num' => $box_num,
-            'take' => $take,
-            'mark' => $mark,
-            'created_tm' => $created_tm,
-            'clock_tm' => $clock_tm,
-            'light' => $light,
-            'user_id' => $user_id
-        );
-        if (!($model->create($data) && $model->add()))
-        {
-            echo '0';
-        }
-        else 
-
-       		echo '1';
-	    
-
-	   }*/
-	   $Ocr  = A('Ocr');
-       $Ocr->Ocr($baesURL);    
+	    $Ocr  = A('Ocr');
+        $Ocr->Ocr($baesURL);    
 		}
-    }
-
-    public function read(){
-        //字符读出
-        $fp = fopen('C:\wamp\www\xcx\data.txt','r')or exit("Unable to open file!");
-        $userdata = fread($fp,filesize('C:\wamp\www\xcx\data.txt'));
-       // $userdata = iconv("gb2312", "utf-8", $userdata);  
-        echo $userdata;
-        fclose($fp);
     }
 
     public function uploadimg(){ 
@@ -131,97 +109,7 @@ class IndexController extends Controller {
 		}
     }
 
-    public function updatetxt(){
-    	//header("Content-Type: text/html;charset=utf-8");
-    	$content=@file_get_contents('C:\wamp\www\xcx\data.txt');
-    	//$content = iconv("gb2312", "utf-8", $content);  
-		if($content === false){
-		    echo '无法读取文件内容';
-		}else{
-		    if(strlen($content) === 0){
-		        echo '请输入内容!';
-		    }else{
-		        echo '不是空文件';
-		        // 获取内容 然后处理
-		  	//var_dump($content);
 
-		       $content = preg_replace(array('<p class="xing-p">',"</p>"),array("P","P"),$content);
-		       //$content  = iconv("GB2312", "utf-8",  $content );
-		       //var_dump($content);
-		       $content .='<style>div { text-align: justify; }</style><h2>标题</h2>'.$content;
-		   //var_dump($content);
-    		  
-    		/*$txt = M('Test');
-    		$data['ocrtxt'] = $content;
-    	$txt->add($data);*/
-		        $content  = <<<EOD
-		        <h1>Welcome to <a href="http://www.tcpdf.org" style="text-decoration:none;background-color:#CC0000;color:black;">&nbsp;<span style="color:black;">TC</span><span style="color:white;">PDF</span>&nbsp;</a>!</h1>
-<i>This is the first example of TCPDF library.</i>"$content"
-EOD;
-		      $pdf = A('Pdf');
-		      echo $pdf->pdf($content);
-		      //file_put_contents('C:\wamp\www\xcx\data.txt',''); 
-		    }
-		}
-    }
-
-    public function t(){
-/*
-    	$txt = M('Test');
-    	$data = $txt->query('select *from test');
-    	$data  = iconv("UTF-8", "UTF-8//IGNORE" ,$data );
-    	$mpdf = A('Mpdf');
-    	$da = '哈哈哈哈哈啊哈哈';
-		 $mpdf = $mpdf->Mpdf($da);
-    	var_dump($data);*/
-    	//$a = I('date');
-
-    	       /* $fp = fopen('C:\wamp\www\xcx\data.txt','a+')or exit("Unable to open file!");
-        //$OcrTxt = iconv("utf-8","gb2312",  $OcrTxt);
-        fwrite($fp, $a);
-        fclose($fp);
-    	var_dump($a);*/
-    	$mysql = M('Dirary');
-		$d[] = array(
-			'openid' => 'openid',
-			'title' => 'title',
-			'ctime' => 'time',
-			'content' => 'data',
-			'pointnb' =>'0',
-			'isopen' =>'1',
-			'pdfurl' =>'pdfurl'
-			);
-		$mysql->addall($d);
-    }
-
-    public function tt(){
-    	//xing-eidtor wx.request 将图文信息存入存入数据库 调用生成pdf方法，生成pdf 并存入路径
-    	$str = I('d');// xing-eidtor wx.request 返回的图文信息
-    	$openid = I('openid');
-    	$title = I('title');
-    	$time = date ( "Y-m-d H:i:s" );
-    	$content = htmlspecialchars_decode($str);
-		$a = json_decode($content,true);
-		$data = '<h1>'.$title.'</h1>';
-		$i = 0;
-		if($openid =='') return ;
-		foreach ($a as $key => $value) {
-			# code...
-			if($value['name'] == 'p') {
-				//text 文本
-				$data.= '<p>'.$value['children']['0']['text'].'</p>';
-			}else{
-				//图片地址
-				  $data .= '<img src="'.$value['attrs']['src'].'" border="0" height="50" width="50" align="bottom" />';
-			}
-		}
-	/*	$data = <<<EOD
-				"$data"
-EOD	;*/
-		$pdf = A('Pdf');
-		$pdfurl = $pdf->pdf($title,$openid,$data,$time);
-
-	}
 	 public function tomysql(){
 	 	$str = I('d');
 	 	$openid = I('openid');
@@ -231,6 +119,11 @@ EOD	;*/
 		$a = json_decode($content,true);
 		$data = array();
 		$i = 0;
+		if(!isset($openid)) return;
+		$sql = M('Userinfo');
+		$res = $sql -> query("select *from userinfo where openid = '$openid'");
+		$nick = $res['0']['nick'];
+		$imgurl = $res['0']['imgurl'];
 		foreach ($a as $key => $value) {
 			# code...
 			if($value['name'] == 'p') {
@@ -250,12 +143,118 @@ EOD	;*/
 				$cont++;
 		}
 		if($cont == $i){
-			$da = implode('',$data);
+			$da = '<h1 align="center">'.$title.'</h1>';
+			$contentjson = '';
+			$point = 0;
+			foreach ($a as $key => $value) {
+			# code...
+			if($value['name'] == 'p') {
+				//text 文本
+				   $da.= '<p>'.++$point.' : '.$value['children']['0']['text'].'</p>';
+				   $contentjson .= '|'.$value['children']['0']['text'];
+			}else{
+				//图片地址
+				   $da .= '<div align="center"><img src="'.$value['attrs']['src'].'" border="0" height="250" width="250" align="bottom" /></div>';
+				   $contentjson .= '|'.$value['attrs']['src'];
+			}
+		}	
+			$da .='<div align="right"><img src="C:\wamp\www\ThinkPHP\Library\Vendor\tcpdf\examples\images\tcpdf_logo3.jpg" border="0" height="86" width="86" align="center" /></div>';
 			$pdf = A('Pdf');
-		    $pdf->pdf($title,$openid,$da,$time);
+		    $pdf->pdf($nick,$imgurl,$time,$title,$openid,$da,$time,$contentjson);
 		}
 		else
 			echo '0';
 
 	 }
+
+	public function search(){
+		//搜索数据库，展示日志列表
+		$reback = array();
+		$body = array();
+		$contentjson = array();
+		$mysql = M('Dirary');
+		$result = $mysql -> query('select *from dirary');
+		for($i = 0;$i < count($result); $i++){
+			$openid = $result[$i]['openid'];
+			$title = $result[$i]['title'];
+			$ctime = $result[$i]['ctime'];
+			$contents= $result[$i]['contentjson'];
+			//$contents= mysql_real_escape_string($contents);
+			$contentjson = explode('|', $contents);
+			for($t=0;$t<count($contentjson);$t++){
+				if(file_get_contents($contentjson[$t])){
+					$body[$t]['img'] = $contentjson[$t];
+				}
+				elseif($contentjson[$t]==''){}else{
+					$body[$t]['p'] = $contentjson[$t];
+				}
+			}
+			$pointnb = $result[$i]['pointnb'];
+			$pdfurl = $result[$i]['pdfurl'];
+			$id = $result[$i]['id'];
+			$sql = M('Userinfo');
+			$res = $sql -> query("select *from userinfo where openid = '$openid'");
+			$nick = $res['0']['nick'];
+			$imgurl = $res['0']['imgurl'];
+			$reback[$i] = array($id,$nick,$imgurl,$title,$body,$ctime,$pointnb,$pdfurl);
+			$body = array();
+			$contentjson = array();
+		}
+		$data = array();
+		for($i = 0;$i<count($reback);$i++){
+			$data[$i]['meta']['id'] = $reback[$i][0];
+			$data[$i]['meta']['avatar'] = $reback[$i][2];
+			//$data[$i]['meta']['cover'] = $reback[$i][1];
+			$data[$i]['meta']['cover'] = 'https://www.caption-he.com.cn/xcx/face.png';
+			$data[$i]['meta']['create_time'] = $reback[$i][5];
+			$data[$i]['meta']['nickName'] = $reback[$i][1];
+			$data[$i]['meta']['title'] = $reback[$i][3];
+			$data[$i]['meta']['pdfurl'] = $reback[$i][7];
+			for($j=0;$j<=count($reback[$i][4]);$j++){
+				foreach ($reback[$i][4][$j] as $index => $value){
+					if($index == 'p'){
+						$data[$i]['list'][$j]['commentNum'] = $j;
+						$data[$i]['list'][$j]['type'] = "TEXT";
+						$data[$i]['list'][$j]['content'] = $value;
+
+					}else{
+						$data[$i]['list'][$j]['commentNum'] = $j;
+						$data[$i]['list'][$j]['type'] = "IMAGE";
+						$data[$i]['list'][$j]['content'] = $value;
+					}
+				}
+			}
+
+		}
+		echo(json_encode($data,true));  
+	}
+
+	public function idsearch(){
+		$id = I('id');
+		$mysql = M('Dirary');
+		$data = array();
+		$result = $mysql -> query("select *from dirary where id ='$id'");
+		for($i = 0;$i < count($result); $i++){
+			$title = $result[$i]['title'];
+			$ctime = $result[$i]['ctime'];
+			$openid = $result[$i]['openid'];
+			$sql = M('Userinfo');
+			$res = $sql -> query("select *from userinfo where openid = '$openid'");
+			$nick = $res['0']['nick'];
+			$imgurl = $res['0']['imgurl'];
+			$data = array('title'=>$title,'time'=>$ctime,'nick'=>$nick,'imgurl'=>$imgurl);
+		}
+
+		echo(json_encode($data,true));  
+	}
+
+	public function del(){
+		//entry页面的del方法
+		//$openid = I('openid');
+		$id = I('id');
+		if($id == null) return;
+		$sql = M('Dirary');
+		$result = $sql -> execute("delete from dirary where id = '$id'");
+		echo $result;
+	}
 }

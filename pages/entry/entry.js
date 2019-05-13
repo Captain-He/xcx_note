@@ -48,66 +48,85 @@ Page({
   downloadFile: function (e) {
     var that = this;
     var fss = wx.getFileSystemManager();
-    fss.readdir({
-      dirPath: wx.env.USER_DATA_PATH,
-      success: function (res) {
-        var name = that.data.ids + '.pdf';
-        for (let i = 0; i < res.files.length; i++) {
-          if (name == res.files[i]) {
-            wx.showToast({
-              title: '已经下载过了！',
-              icon: 'none',
-              duration: 2000
-            })
-            return;
-          }
-        }
-        wx.showLoading({
-          title: '下载中...',
-        })
-        wx.downloadFile({
-          url: that.data.pdfurl,
-          header: {},
-          success: function (res) {
-            var filePath = res.tempFilePath;
-            var savepath = '';
-            wx.saveFile({
-              tempFilePath: filePath,
-              success: function (res) {
-                wx.hideLoading();
-                wx.showToast({
-                  title: '保存成功',
-                })
-                savepath = res.savedFilePath;
-                var fs = wx.getFileSystemManager();
-                fs.rename({
-                  oldPath: savepath,
-                  newPath: wx.env.USER_DATA_PATH + '/' + that.data.ids + '.pdf',
-                  success: function (res) {
-                    savepath = wx.env.USER_DATA_PATH + '/' + that.data.ids + '.pdf'
-                    wx.openDocument({
-                      filePath: savepath,
-                      fileType: 'pdf',
-                      success: function (res) {
-                        console.log('打开文档成功')
-                      },
-                      fail: function (res) {
-                        console.log(res);
-                      },
-                      complete: function (res) {
-                        console.log(res);
-                      }
-                    })
-                  }
-                })
+    var isexit = 9;
+    fss.mkdir({
+      dirPath: wx.env.USER_DATA_PATH+'/pdf',
+      recursive:true,
+      success:function(res){
+        isexit = 1;
+      },
+      fail:function(res){
+        isexit = 2;
+        console.log(res);
+      },
+      complete:function(res){
+        var path = wx.env.USER_DATA_PATH + '/pdf';
+        if(isexit = 1||isexit == 2)
+        {
+          fss.readdir({
+            dirPath: path,
+            success: function (res) {
+              var name = that.data.ids + '.pdf';
+              for (let i = 0; i < res.files.length; i++) {
+                if (name == res.files[i]) {
+                  wx.showToast({
+                    title: '已经下载过了！',
+                    icon: 'none',
+                    duration: 2000
+                  })
+                  return;
+                }
               }
-            })
-          },
-          fail: function (res) {
-            console.log('文件下载失败');
-          },
-          complete: function (res) { },
-        })
+              wx.showLoading({
+                title: '下载中...',
+              })
+              wx.downloadFile({
+                url: that.data.pdfurl,
+                header: {},
+                success: function (res) {
+                  var filePath = res.tempFilePath;
+                  var savepath = '';
+                  wx.saveFile({
+                    tempFilePath: filePath,
+                    success: function (res) {
+                      wx.hideLoading();
+                      wx.showToast({
+                        title: '保存成功',
+                      })
+                      savepath = res.savedFilePath;
+                      var fs = wx.getFileSystemManager();
+                      fs.rename({
+                        oldPath: savepath,
+                        newPath: wx.env.USER_DATA_PATH + '/pdf/' + that.data.ids + '.pdf',
+                        success: function (res) {
+                          savepath = wx.env.USER_DATA_PATH + '/pdf/' + that.data.ids + '.pdf'
+                          wx.openDocument({
+                            filePath: savepath,
+                            fileType: 'pdf',
+                            success: function (res) {
+                              console.log('打开文档成功')
+                            },
+                            fail: function (res) {
+                              console.log(res);
+                            },
+                            complete: function (res) {
+                              console.log(res);
+                            }
+                          })
+                        }
+                      })
+                    }
+                  })
+                },
+                fail: function (res) {
+                  console.log('文件下载失败');
+                },
+                complete: function (res) { },
+              })
+            }
+          })
+          isexit = 9;
+        }
       }
     })
   },

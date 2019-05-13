@@ -6,27 +6,24 @@ class PdfController extends Controller {
        echo 'happy!';
     }
 
-    public function pdf($title,$openid,$da,$time){
+    public function pdf($nick,$imgurl,$time,$title,$openid,$da,$time,$a){
 
 		// Include the main TCPDF library (search for installation path).
 		require_once('C:\wamp\www\ThinkPHP\Library\Vendor\tcpdf\examples\tcpdf_include.php');
 		require_once('C:\wamp\www\ThinkPHP\Library\Vendor\tcpdf\tcpdf.php');
 		// create new PDF document
 		$pdf = new \TCPDF(PDF_PAGE_ORIENTATION, PDF_UNIT, PDF_PAGE_FORMAT, true, 'UTF-8', false);
-
 		// set document information
 		$pdf->SetCreator(PDF_CREATOR);
-		$pdf->SetAuthor('Nicola Asuni');
-		$pdf->SetTitle('TCPDF Example 001');
-		$pdf->SetSubject('TCPDF Tutorial');
+		//$pdf->SetAuthor('Caption-He');
+		//$pdf->SetTitle('懒人云笔记');
+		//$pdf->SetSubject('笔记');
 		$pdf->SetKeywords('TCPDF, PDF, example, test, guide');
-
 		// set default header data
-		$pdf->SetHeaderData(PDF_HEADER_LOGO, PDF_HEADER_LOGO_WIDTH, PDF_HEADER_TITLE.' 001', PDF_HEADER_STRING, array(0,64,255), array(0,64,128));
+		$pdf->SetHeaderData(PDF_HEADER_LOGO, 10, '懒人云笔记', 'by'. $nick." "." "." ".$time, array(0,64,255), array(0,64,128));
 		$pdf->setFooterData(array(0,64,0), array(0,64,128));
-
 		// set header and footer fonts
-		$pdf->setHeaderFont(Array(PDF_FONT_NAME_MAIN, '', PDF_FONT_SIZE_MAIN));
+		$pdf->setHeaderFont(Array('stsongstdlight', '', 10));
 		$pdf->setFooterFont(Array(PDF_FONT_NAME_DATA, '', PDF_FONT_SIZE_DATA));
 
 		// set default monospaced font
@@ -68,7 +65,7 @@ class PdfController extends Controller {
 		$pdf->setTextShadow(array('enabled'=>true, 'depth_w'=>0.2, 'depth_h'=>0.2, 'color'=>array(196,196,196), 'opacity'=>1, 'blend_mode'=>'Normal'));
 
 		// Set some content to print
-		 $html = $data;
+		 $html = $da;
 		$pdf->SetFont('stsongstdlight', '', 20); 
 		// Print text using writeHTMLCell()
 		$pdf->writeHTMLCell(0, 0, '', '', $html, 0, 1, 0, true, '', true);
@@ -77,7 +74,9 @@ class PdfController extends Controller {
 
 		// Close and output PDF document
 		// This method has several options, check the source code documentation for more information.
-		$pdfurl = 'C:\wamp\www\xcx\pdfs/'.md5(time() . mt_rand(1,1000000)).'.pdf';
+		$h = md5(time() . mt_rand(1,1000000));
+		$pdfurl = 'C:\wamp\www\xcx\pdfs/'.$h.'.pdf';
+		$pdff = 'https://www.caption-he.com.cn/xcx/pdfs/'.$h.'.pdf';
 		$mysql = M('Dirary');
 		$d[] = array(
 			'openid' => $openid,
@@ -86,7 +85,8 @@ class PdfController extends Controller {
 			'content' => $da,
 			'pointnb' =>'0',
 			'isopen' =>'1',
-			'pdfurl' =>$pdfurl
+			'pdfurl' =>$pdff,
+			'contentjson' => $a
 			);
 		$mysql->addall($d);
 		$pdf->Output($pdfurl, 'F');

@@ -1,0 +1,22 @@
+[ 2019-05-04T22:40:54+08:00 ] 122.206.190.96 /xcx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001185s ]
+
+[ 2019-05-04T22:40:56+08:00 ] 122.206.190.96 /xcx/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000804s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000973s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000949s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001257s ]
+
