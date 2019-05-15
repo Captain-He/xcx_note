@@ -36,7 +36,7 @@ Component({
 
     buttonBackgroundColor: {
       type: String,
-      value: '#409EFF',
+      value: '#69C3AA',
     },
 
     buttonTextColor: {
@@ -203,6 +203,7 @@ Component({
       this.writeTextToNode();
       this.handleOutput();
       var a = app.globalData.text;
+      var p=0;
       var j = 0;
       for (let i = 0; i < a.length; i++) {
         if (a[i].name == 'img') {
@@ -229,11 +230,20 @@ Component({
                     'content-type': 'application/json' // 默认值
                   },
                   success(res) {
-                    
                     wx.hideLoading();
                     app.globalData.text = Array();
                     app.globalData.li = '';
+                    p = 1;
                     console.log(res.data);
+                  },
+                  complete:function(){
+                    if (j == a.length && p == 1) {
+                      j = 0;
+                      p = 0;
+                      wx.reLaunch({
+                        url: '../../pages/list/list'
+                      })
+                    }
                   }
                 })
               }
@@ -242,9 +252,6 @@ Component({
         }
         j++;
       }
-      wx.reLaunch({
-        url: '../../pages/list/list'
-      })
     },
 req:function(){
   

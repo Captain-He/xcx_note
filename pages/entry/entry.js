@@ -156,7 +156,7 @@ Page({
               },
               method: 'GET',
               success: (res) => {
-
+                console.log(res.data+'g');
                 if (res.data == 1) {
                   wx.hideToast();
                   wx.navigateBack({
@@ -172,6 +172,14 @@ Page({
                   wx.hideToast();
                 }
 
+              },
+              fail:function(res){
+                wx.hideToast();
+                wx.showToast({
+                  title: '删除失败',
+                  icon: 'loading',
+                  duration: 2000
+                })
               }
             })
           } else { }

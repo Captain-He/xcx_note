@@ -185,11 +185,11 @@ Page({
       content: '确定要删除这个文档吗？',
       success:function(res){
         if(res.confirm){
-          console.log(wx.env.USER_DATA_PATH + '/' + e.currentTarget.id);
+          console.log(wx.env.USER_DATA_PATH + '/pdf/' + e.currentTarget.id);
           var fs = wx.getFileSystemManager();
           fs.rename({
-            oldPath: wx.env.USER_DATA_PATH + '/' + e.currentTarget.id,
-            newPath: wx.env.USER_DATA_PATH + '/' + '删.pdf',
+            oldPath: wx.env.USER_DATA_PATH + '/pdf/' + e.currentTarget.id,
+            newPath: wx.env.USER_DATA_PATH + '/pdf/' + '删.pdf',
             success: function (res) {
               that.deleteMsgItem(e);
               wx.showToast({

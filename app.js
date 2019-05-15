@@ -4,7 +4,12 @@ App({
   data: {
     // 设备信息，主要用于获取屏幕尺寸而做适配
     deviceInfo: null,
-
+    page:0,
+    title:[],
+    imgUrls:[],
+    date:[],
+    contenturl:[],
+    author:'小仙女',
     // 本地日记缓存列表 + 假数据
     // TODO 真实数据同步至服务端，本地只做部分缓存
     

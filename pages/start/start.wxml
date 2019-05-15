@@ -1,0 +1,35 @@
+<!--start.wxml-->
+<view class="container">
+  <view class="remind-box" wx:if="{{remind}}">
+    <image class="remind-img" src="/images/more/loading.gif"></image>
+  </view>
+  <block wx:else>
+    <image class="title" src="/images/more/title8.png"></image>
+    <view class="content">
+      <view class="hd" style="transform:rotateZ({{angle}}deg);">
+           
+          <view class="logo">
+    <button class="lo-bt" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">  </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+
+    </block>
+  </view>
+  <view class="usermotto">
+
+  </view>
+        <image class="wave" src="/images/more/wave.png" mode="aspectFill"></image>
+        <image class="wave wave-bg" src="/images/more/wave.png" mode="aspectFill"></image>
+      </view>
+      <view class="bd">
+          <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+         <button class="confirm-btn" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">  <text >登陆云笔记</text> </button>
+    <block wx:else>
+        <view class="confirm-btn" bindtap='bindViewTap'>
+          <text >进入云笔记</text>
+        </view></block>
+        <text class="copyright">@Caption-He</text>
+      </view>
+    </view>
+  </block>
+</view>

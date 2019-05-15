@@ -1,6 +1,9 @@
 {
   "pages": [
+    "pages/start/start",
     "pages/index/index",
+    "pages/news/news",
+    "pages/web/web",
     "pages/virtualCamera/virtualCamera",
     "pages/picture/picture",
     "pages/user/user",
@@ -26,7 +29,7 @@
     "position": "bottom",
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/news/news",
         "text": "云社区",
         "iconPath": "images/list.png",
         "selectedIconPath": "images/list-selected.png"

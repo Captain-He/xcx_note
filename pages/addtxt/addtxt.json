@@ -1,4 +1,6 @@
 {
+  "navigationBarBackgroundColor": "#69C3AA",
+  "navigationBarTitleText": "添加笔记",
   "usingComponents": {
     "xing-editor": "../../pages/components/xing-editor"
   }

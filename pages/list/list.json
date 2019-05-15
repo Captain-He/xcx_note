@@ -1,4 +1,6 @@
 {
+  "navigationBarBackgroundColor": "#69C3AA",
+  "navigationBarTitleText": "历史列表",
   "usingComponents": {},
   "enablePullDownRefresh": true,
   "onReachBottomDistance": 10
