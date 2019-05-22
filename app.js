@@ -10,6 +10,7 @@ App({
     date:[],
     contenturl:[],
     author:'小仙女',
+    time:[],
     // 本地日记缓存列表 + 假数据
     // TODO 真实数据同步至服务端，本地只做部分缓存
     

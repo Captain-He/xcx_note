@@ -8,14 +8,8 @@ var app = getApp();
 Page({
 
   data: {
-    // 日记列表
-    // TODO 从server端拉取
     diaries: null,
-
-    // 是否显示loading
     showLoading: false,
-
-    // loading提示语
     loadingMessage: '',
     pdfs: [],
     titles: [],
@@ -31,7 +25,40 @@ Page({
     if(this.data.i == 1)
       this.getDiaries();
   },
+  onPullDownRefresh () {
+    console.log('s');
+    var that = this;
+    var list;
+    if (this.data.i == 2) {
+      var that = this;
+      wx.showLoading({
+        title: '加载中',
+      })
+      wx.request({
+        url: 'https://www.caption-he.com.cn/xcx/home/index/search',
+        data: {
+        },
+        header: {
+          'content-type': 'application/json'
+        },
+        method: 'POST',
+        success: (res) => {
+          wx.hideLoading();
+          list = res.data;
+          app.globalData.diaryList = list;
+          typeof cb == 'function' && cb(app.globalData.diaryList)
+          that.setData({ diaries: list });
+        },
+        complete: function () {
+          wx.hideNavigationBarLoading() //完成停止加载
+
+          wx.stopPullDownRefresh() //停止下拉刷新
+        }
+      })
+    }
+  },
   onReachBottom(){
+    console.log('x');
     var that = this;
     var list;
     if (this.data.i == 2) {
@@ -69,6 +96,7 @@ Page({
   getDiaries() {
     var that = this;
     console.log('f');
+    that.data.i = 2;
     app.getDiaryList(list => {
       that.setData({ diaries: list });
       that.data.i = 2;

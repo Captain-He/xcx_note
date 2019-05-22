@@ -13,7 +13,8 @@ Page({
     windowHeight: "",
     windowWidth: "",
     page: 0,
-    contenturl:[]
+    contenturl:[],
+    time:[]
   },
   onShow: function (e) {
     wx.getSystemInfo({
@@ -71,22 +72,24 @@ Page({
       // header: {}, // 设置请求的 header
       success: (res) => {
         // success
-        //   console.log( res.data.result.data );
+          
         var data = res.data;
         //console.log(data);
         for (var i = 0; i < data.length; i++) {
           app.title[i] = data[i].title;
           app.imgUrls[i] = 'https://www.caption-he.com.cn'+data[i].thumbnail;
-          app.author ='小仙女';
+          app.author ='司马迁迁';
           app.date[i] = data[i].aid;
+          app.time[i] = this.time(data[i].t *1000);
         }
         //   console.log( app.imgUrls );
         this.setData({
           title: app.title,
           imgUrls: app.imgUrls,
-          author: '小仙女',
+          author: '司马迁迁',
           date: app.date,
           contenturl: app.contenturl,
+          time:app.time
           //page: app.page
         })
       },
@@ -99,7 +102,16 @@ Page({
       }
     })
   },
-
+  time:function (timestamp) {
+    var date = new Date(timestamp);
+   var y = date.getFullYear() + '-';
+    var m = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1) + '-';
+    var d = (date.getDate() < 10 ? '0' + (date.getDate()) : date.getDate()) + ' ';
+   var  h = (date.getHours() < 10 ? '0' + (date.getHours()) : date.getHours()) + ':';
+    var m = (date.getMinutes() < 10 ? '0' + (date.getMinutes()) : date.getMinutes()) + ':';
+   var  s = (date.getSeconds() < 10 ? '0' + (date.getSeconds()) : date.getSeconds());
+    return y + m + d + h + m + s;
+  },
   resetData: function () {
     app.title = [];
     app.imgUrls = [];
@@ -108,6 +120,7 @@ Page({
     app.date = [];
     app.page = 0;
     app.contenturl = [];
+    app.time = []
   },
   loading: function () {
     wx.showToast({

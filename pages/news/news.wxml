@@ -9,8 +9,8 @@
                     <image src="{{imgUrls[index]}}"></image>
                 </view>
                 <view class="info">
-                    <text class="author">{{author[index]}}</text>
-                    <text class="date">{{date[index]}}</text>
+                    <text class="author">{{author}}</text>
+                    <text class="date">{{time[index]}}</text>
                 </view>
             </navigator>
         </block>

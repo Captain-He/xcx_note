@@ -73,11 +73,4 @@
   </view>
 </view>
 
-<!-- 预览模式 -->
-<swiper class="swiper-container" duration="400" current="{{previewIndex}}" bindtap="leavePreviewMode" style="display:{{previewMode ? 'block' : 'none'}};">
-  <block wx:for="{{mediaList}}" wx:for-item="media">
-    <swiper-item>
-      <image src="{{media.content}}" mode="aspectFit"></image>
-    </swiper-item>
-  </block>
-</swiper>
+
